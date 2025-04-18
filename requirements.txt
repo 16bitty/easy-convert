@@ -1,0 +1,7 @@
+# For config file handling
+tomli-w  # For writing config files
+platformdirs  # For finding user config directory
+
+# Testing
+pytest
+pytest-cov
