@@ -2,6 +2,9 @@
 tomli-w  # For writing config files
 platformdirs  # For finding user config directory
 
-# Testing
+# For testing
 pytest
 pytest-cov
+
+# For audio conversion
+ffmpeg-python

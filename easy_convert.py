@@ -2,8 +2,10 @@ import subprocess
 import sys
 
 def main():
+    print("Checking FFmpeg installation...")
     if not check_ffmpeg():
         sys.exit(1)
+    print("FFmpeg installation is OK.")
 
 def check_ffmpeg():
     try:
